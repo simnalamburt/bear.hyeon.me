@@ -12,3 +12,6 @@ server {
   root /usr/share/nginx/welcome;
 }
 ```
+
+### HTTPS
+[![](http://i.imgur.com/blwHEzZ.png)](https://www.ssllabs.com/ssltest/analyze.html?d=kuma.hyeon.me)
