@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+  @import url(https://fonts.googleapis.com/css?family=Quicksand:300);
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('bear.jpg');
+    background-size: cover;
+    background-position-x: 72%;
+    background-position-y: 46%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body > h1 {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 60pt;
+
+    text-shadow: 2px 2px black;
+  }
+  @media (max-width: 727.27px) {
+    body > h1 {
+      font-size: 11vw;
+    }
+  }
+
+  body:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  </style>
+</head>
+<body>
+  <h1>bear.hyeon.me</h1>
+</body>
+</html>
