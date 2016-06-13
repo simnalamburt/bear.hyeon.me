@@ -2,7 +2,7 @@
 ========
 
 ```shell
-sudo mv "$PWD/kuma.hyeon.me" /usr/share/nginx/welcome
+sudo mv ./kuma.hyeon.me/ /usr/share/nginx/welcome
 ```
 ```Nginx
 # nginx config
