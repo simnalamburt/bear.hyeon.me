@@ -1,1 +1,1 @@
-![Rilakkuma](kuma.png)
+![Rilakkuma](kuma.avif)
